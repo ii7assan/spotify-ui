@@ -1,15 +1,14 @@
 <template>
-  <hello-world />
+    <collection />
 </template>
-
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import Collection from "../components/Collection.vue";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      HelloWorld,
-    },
-  }
+  components: {
+    Collection,
+  },
+};
 </script>
